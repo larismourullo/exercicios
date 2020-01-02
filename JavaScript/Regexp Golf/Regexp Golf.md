@@ -12,7 +12,6 @@ Escreva uma expressão regular que testa quando qualquer das _sub-strings_ dadas
   Uma palavra com mais de seis letras
   Uma palavra sem a letra "e"
 
-Consulte a tabela no capítulo Sumário para achar algo rapidamente.
 Teste cada solução encontrada com alguns testes com _strings_.
 
 ```js

@@ -19,6 +19,4 @@ console.log(new Vector(3, 4).length);
 
 **Dicas**
 
-Sua solução pode seguir o padrão do construtor `Rabbit` deste capítulo de forma bem semelhante.
-
 Adicionar uma propriedade getter ao construtor pode ser feita com a função `Object.defineProperty`. Para calcular a distância do ponto `(0, 0)` até `(x, y)` você pode usar o teorema de Pitágoras, que diz que o quadrado da distância que estamos procurando é igual ao quadrado da coordenada x mais o quadrado da coordenada y. Assim, `√(x2 + y2)` é o número que você quer, e `Math.sqrt` é o caminho para você calcular a raiz quadrada no JavaScript.
