@@ -3,7 +3,6 @@ function isMultiple(num, divisor) {
 }
 
 // SOLUÇÃO SIMPLES ----------------------------
-
 for (var i = 1; i <= 100; i++) { 
 
 	if (isMultiple(i, 3) && isMultiple(i, 5)){
@@ -16,7 +15,6 @@ for (var i = 1; i <= 100; i++) {
 
 	console.log(i);
 }
-
 
 // SOLUÇÃO INTELIGENTE ------------------------
 

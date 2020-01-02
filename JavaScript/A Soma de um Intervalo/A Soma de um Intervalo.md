@@ -1,4 +1,4 @@
-# A soma de um intervalo
+# A Soma de um Intervalo
 
 Uma boa alternativa para somar um intervalo de números:
 
