@@ -2,8 +2,6 @@
 
 Os _arrays_ possuem o método `reverse`, que modifica o _array_ invertendo a ordem em que os elementos aparecem. Para esse exercício, escreva duas funções: `reverseArray` e `reverseArrayInPlace`. A primeira (`reverseArray`) recebe um _array_ como argumento e produz um _novo array_ que tem os mesmos elementos com ordem inversa. A segunda (`reverseArrayInPlace`) funciona da mesma forma que o método `reverse`, só que nesse caso, invertendo os elementos do próprio _array_ que foi fornecido como argumento. Ambas as funções não devem usar o método padrão `reverse`.
 
-Levando em consideração as notas sobre efeitos colaterais e funções puras do [capítulo anterior](./03-funcoes.md), qual versão você espera que seja útil em mais situações? Qual delas é mais eficiente?
-
 ```js
 // Your code here.
 
@@ -17,7 +15,7 @@ console.log(arrayValue);
 
 **Dicas**
 
-Existem duas maneiras óbvias de implementar `reverseArray`. A primeira é simplesmente iterar o _array_ fornecido do início ao fim e usar o método `unshift` para inserir cada elemento no início do novo _array_. A segunda é iterar o _array_ fornecido começando pelo fim e terminando no início, usando o método `push`. Iterar um _array_ de trás para frente faz com que seja necessário usar uma notação `for` um pouco estranha (`var i = array.length - 1; i >= 0; i--`).
+Existem duas maneiras óbvias de implementar `reverseArray`. A primeira é simplesmente iterar o _array_ fornecido do início ao fim e usar o método `unshift` para inserir cada elemento no início do novo _array_. A segunda é iterar o _array_ fornecido começando pelo fim e terminando no início, usando o método `push`. Iterar um _array_ de trás para frente faz com que seja necessário usar uma notação `for`um pouco estranha (`var i = array.length - 1; i >= 0; i--`).
 
 Inverter o _array_ em questão (`reverseArrayInPlace`) é mais difícil. Você deve ter cuidado para não sobrescrever elementos que você precisará posteriormente. Usar `reverseArray` ou até mesmo copiar o _array_ inteiro (`array.slice(0)` é uma boa forma de se copiar um _array_) funciona, mas é considerado trapaça.
 
