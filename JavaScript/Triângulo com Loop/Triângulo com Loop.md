@@ -18,14 +18,8 @@ console.log(abc.length);
 // → 3
 ```
 
-A maioria dos exercícios contém um pedaço de código que pode ser utilizada para alterar e resolver o exercício. Lembre-se que você pode clicar em um bloco de código para editá-lo.
-
-```js
-// Your code here.
-```
-
 **Dicas**
 
-Você pode começar com um programa que simplesmente imprime os números de 1 a 7, na qual você pode derivar algumas modificações no exemplo de impressão de números dado no início do capítulo aqui, onde o loop foi introduzido.
+Você pode começar com um programa que simplesmente imprime os números de 1 a 7, na qual você pode derivar algumas modificações.
 
-Agora, considere a equivalência entre números e cadeias em um `hash` de caracteres. Você pode ir de 1 para 2 adicionando 1 (`+ = 1`). Você pode ir de "#" para "##", adicionando um caractere (`+ = "#"`). Assim, a solução pode acompanhar de perto o número, de impressão do programa.
+Agora, considere a equivalência entre números e cadeias em um `hash` de caracteres. Você pode ir de 1 para 2 adicionando 1 (`+= 1`). Você pode ir de "#" para "##", adicionando um caractere (`+= "#"`). Assim, a solução pode acompanhar de perto o número, de impressão do programa.
