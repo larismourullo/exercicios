@@ -40,7 +40,7 @@ console.log(nth(arrayToList([10, 20, 30]), 1));
 
 **Dicas**
 
-Construir uma lista é mais fácil de ser feito de trás para frente. Portanto, `arrayToList` poderia percorrer o _array_ de trás para frente (veja o exercício anterior) e, para cada elemento, adicionar um objeto à lista. Você pode usar uma variável local para armazenar a parte da lista que foi criada e usar um padrão parecido com `list = {value: X, rest: list}` para adicionar um elemento.
+Construir uma lista é mais fácil de ser feito de trás para frente. Portanto, `arrayToList` poderia percorrer o _array_ de trás para frente e, para cada elemento, adicionar um objeto à lista. Você pode usar uma variável local para armazenar a parte da lista que foi criada e usar um padrão parecido com `list = {value: X, rest: list}` para adicionar um elemento.
 
 Para percorrer uma lista (no caso de `listToArray` e `nth`), o seguinte loop `for` pode ser usado:
 
