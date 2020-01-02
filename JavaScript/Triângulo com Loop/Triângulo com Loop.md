@@ -12,7 +12,7 @@ Escreva um programa que faça sete chamadas a `console.log()` para retornar o se
 
 Uma maneira interessante para saber o comprimento de uma `string` é escrevendo `.length` após ela.
 
-```javascript
+```js
 var abc = "abc";
 console.log(abc.length);
 // → 3
@@ -20,11 +20,11 @@ console.log(abc.length);
 
 A maioria dos exercícios contém um pedaço de código que pode ser utilizada para alterar e resolver o exercício. Lembre-se que você pode clicar em um bloco de código para editá-lo.
 
-```javascript
+```js
 // Your code here.
 ```
 
-**Dicas:**
+**Dicas**
 
 Você pode começar com um programa que simplesmente imprime os números de 1 a 7, na qual você pode derivar algumas modificações no exemplo de impressão de números dado no início do capítulo aqui, onde o loop foi introduzido.
 

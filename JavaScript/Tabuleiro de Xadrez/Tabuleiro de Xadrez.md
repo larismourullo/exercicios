@@ -20,7 +20,7 @@ Quando você tiver o programa que gere este padrão, defina a variável `size = 
 // Your code here.
 ```
 
-**Dica:**
+**Dica**
 
 A sequência pode ser construída iniciando vazia ("") e repetidamente adicionando caracateres. O caracter para uma nova linha é escrito assim `\n`.
 

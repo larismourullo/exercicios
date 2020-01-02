@@ -6,7 +6,7 @@ Quando o programa estiver funcionando, modifique-o para imprimir `FizzBuzz` para
 
 (Isto é na verdade uma pergunta de entrevista usada para eliminar uma porcentagem significativa de candidatos programadores. Então se você resolvê-la, você está autorizado de se sentir bem consigo mesmo).
 
-**Dica:**
+**Dica**
 
 Interar sobre os números é trabalho claro de um loop, e selecionar o que imprimir é uma questão de execução condicional. Lembre-se do truque de usar o operador restante (`%`) para verificar se um número é divisível por outro número (terá zero de resto).
 
