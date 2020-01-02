@@ -1,5 +1,4 @@
 function isEven(value) {
-
 	if (value === 0) {
 		return true;
 	} else if (value === 1) {
@@ -9,7 +8,6 @@ function isEven(value) {
 	} else {
 		return isEven(value - 2);
 	}
-
 }
 
 console.log(isEven(50));

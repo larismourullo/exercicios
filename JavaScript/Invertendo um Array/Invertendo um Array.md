@@ -5,7 +5,7 @@ Os _arrays_ possuem o método `reverse`, que modifica o _array_ invertendo a ord
 ```js
 // Your code here.
 
-console.log(reverseArray(["A", "B", "C"]));
+console.log(reverseArray(['A', 'B', 'C']));
 // → ["C", "B", "A"];
 var arrayValue = [1, 2, 3, 4, 5];
 reverseArrayInPlace(arrayValue);

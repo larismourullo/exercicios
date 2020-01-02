@@ -9,13 +9,16 @@ function arrayToList(array) {
 }
 
 function prepend(element, list) {
-	return { value: element, rest: list };
+	return {
+		value: element,
+		rest: list
+	};
 }
 
 function listToArray(list) {
 	var result = [];
 
-	for (var j = list; j; j = j.rest) {		
+	for (var j = list; j; j = j.rest) {
 		result.push(j.value);
 	}
 
@@ -23,13 +26,13 @@ function listToArray(list) {
 }
 
 function nth(list, number) {
-	if(!list) {
+	if (!list) {
 		return undefined;
 	} else if (number == 0) {
 		return list.value;
 	} else {
 		return nth(list.rest, number - 1);
-	}	
+	}
 }
 
 console.log(arrayToList([10, 20]));

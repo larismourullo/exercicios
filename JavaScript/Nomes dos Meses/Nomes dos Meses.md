@@ -1,13 +1,13 @@
 # Nomes dos Meses
 
-Escreva um simples módulo similar ao módulo `weekDay`, que pode converter os números dos meses (*zero-based*, assim como o tipo `Date`) para nomes, e nomes para números. Dê a este módulo seu próprio namespace, pois ele vai precisar de um array interno com o nome dos meses, mas use JavaScript puro, sem nenhum sistema de carregamento de módulos.
+Escreva um simples módulo similar ao módulo `weekDay`, que pode converter os números dos meses (_zero-based_, assim como o tipo `Date`) para nomes, e nomes para números. Dê a este módulo seu próprio namespace, pois ele vai precisar de um array interno com o nome dos meses, mas use JavaScript puro, sem nenhum sistema de carregamento de módulos.
 
 ```js
 // Your code here.
 
 console.log(month.name(2));
 // → March
-console.log(month.number("November"));
+console.log(month.number('November'));
 // → 10
 ```
 

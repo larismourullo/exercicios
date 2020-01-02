@@ -1,8 +1,8 @@
-function every (array, comparisonValue) {
+function every(array, comparisonValue) {
 	var bool;
 
 	for (prop in array) {
-		if(!isNaN(array[prop])) {
+		if (!isNaN(array[prop])) {
 			bool = false;
 		} else {
 			bool = true;
@@ -12,9 +12,9 @@ function every (array, comparisonValue) {
 	return bool;
 }
 
-function some (array, comparisonValue) {
+function some(array, comparisonValue) {
 	for (prop in array) {
-		if(isNaN(array[prop])) {
+		if (isNaN(array[prop])) {
 			return true;
 		}
 	}

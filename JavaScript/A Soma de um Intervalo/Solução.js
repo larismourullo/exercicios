@@ -2,8 +2,10 @@
 function range(start, end, increase) {
 	var size = [];
 
-	if (increase == undefined) { increase = 1; }
-	
+	if (increase == undefined) {
+		increase = 1;
+	}
+
 	if (increase > 0) {
 		for (var i = start; i <= end; i += increase) {
 			size.push(i);

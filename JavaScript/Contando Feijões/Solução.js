@@ -12,7 +12,7 @@ function countChar(word, countWord) {
 	for (var i = 0; i < word.length; i++) {
 		if (word.charAt(i) === countWord) {
 			counter++;
-		}	 	
+		}
 	}
 
 	return counter;

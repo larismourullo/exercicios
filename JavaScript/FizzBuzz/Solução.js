@@ -3,9 +3,9 @@ function isMultiple(num, divisor) {
 }
 
 // SOLUÇÃO SIMPLES ----------------------------
-for (var i = 1; i <= 100; i++) { 
+for (var i = 1; i <= 100; i++) {
 
-	if (isMultiple(i, 3) && isMultiple(i, 5)){
+	if (isMultiple(i, 3) && isMultiple(i, 5)) {
 		console.log("FizzBuzz");
 	} else if (isMultiple(i, 3)) {
 		console.log("Fizz");
@@ -18,13 +18,13 @@ for (var i = 1; i <= 100; i++) {
 
 // SOLUÇÃO INTELIGENTE ------------------------
 
-for (var i = 1; i <= 100; i++) { 
+for (var i = 1; i <= 100; i++) {
 	var result = "";
 
 	if (isMultiple(i, 3)) {
 		result += "Fizz";
 	}
-	
+
 	if (isMultiple(i, 5)) {
 		result += "Buzz";
 	}

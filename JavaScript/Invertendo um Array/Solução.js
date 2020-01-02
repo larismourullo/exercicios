@@ -15,7 +15,6 @@ console.log(reverseArray(["A", "B", "C"]));
 function reverseArrayInPlace(array) {
 	for (var i = 0; i < Math.floor(array.length / 2); i++) {
 		var j = array.length - 1 - i;
-
 		var save = array[j];
 		array[j] = array[i];
 		array[i] = save;

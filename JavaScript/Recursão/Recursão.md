@@ -4,7 +4,7 @@ Nós vimos que o `%` (operador resto) pode ser usado para testar se um número �
 
 - Zero é par.
 - Um é ímpar.
-- Para todo outro número *N*, sua paridade é a mesma de *N - 2*.
+- Para todo outro número _N_, sua paridade é a mesma de _N - 2_.
 
 Defina uma função recursiva `isEven` que satisfaça as condições descritas acima. A função deve aceitar um número como parâmetro e retornar um valor Booleano.
 

@@ -2,18 +2,18 @@
 
 Escreva um programa que faça sete chamadas a `console.log()` para retornar o seguinte triângulo:
 
-	#
-	##
-	###
-	####
-	#####
-	######
-	#######
+    #
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
 
 Uma maneira interessante para saber o comprimento de uma `string` é escrevendo `.length` após ela.
 
 ```js
-var abc = "abc";
+var abc = 'abc';
 console.log(abc.length);
 // → 3
 ```

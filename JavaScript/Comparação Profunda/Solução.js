@@ -1,12 +1,15 @@
 function deepEqual(valueOne, valueTwo) {
-	if (valueOne === valueTwo) { return true; }
+	if (valueOne === valueTwo) {
+		return true;
+	}
 
 	if (typeof valueOne != "object" || valueOne == null ||
 		typeof valueTwo != "object" || valueTwo == null) {
 		return false;
 	}
 
-	var countValueOne = 0, countValueTwo = 0;
+	var countValueOne = 0,
+		countValueTwo = 0;
 
 	for (prop in valueOne) {
 		countValueOne += 1;
@@ -23,7 +26,20 @@ function deepEqual(valueOne, valueTwo) {
 	return countValueOne == countValueTwo;
 }
 
-var obj = {here: {is: "an"}, object: 2};
+var obj = {
+	here: {
+		is: "an"
+	},
+	object: 2
+};
 console.log(deepEqual(obj, obj));
-console.log(deepEqual(obj, {here: 1, object: 2}));
-console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
+console.log(deepEqual(obj, {
+	here: 1,
+	object: 2
+}));
+console.log(deepEqual(obj, {
+	here: {
+		is: "an"
+	},
+	object: 2
+}));
