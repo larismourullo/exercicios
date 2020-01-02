@@ -23,6 +23,6 @@ console.log(isEven(-1));
 
 **Dica**
 
-Sua função será semelhante à função interna `find` do exemplo recursivo `findSolution` neste capítulo, com uma cadeia de declarações `if`/`else if`/`else` que testam qual dos três casos se aplica. O `else` final, correspondente ao terceiro caso, é responsável por fazer a chamada recursiva. Cada uma das ramificações deverá conter uma declaração de retorno ou retornar um valor específico.
+Sua função será com uma cadeia de declarações `if`/`else if`/`else` que testam qual dos três casos se aplica. O `else` final, correspondente ao terceiro caso, é responsável por fazer a chamada recursiva. Cada uma das ramificações deverá conter uma declaração de retorno ou retornar um valor específico.
 
 Quando o argumento recebido for um número negativo, a função será chamada recursivamente várias vezes, passando para si mesma um número cada vez mais negativo, afastando-se cada vez mais de retornar um resultado. Ela, eventualmente, consumirá todo o espaço em memória da pilha de chamadas e abortar.
